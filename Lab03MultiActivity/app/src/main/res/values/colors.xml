@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy">#123A63</color>
+    <color name="accent">#1769AA</color>
+    <color name="surface">#F2F6FA</color>
+    <color name="ink">#16324F</color>
+    <color name="muted">#526579</color>
+    <color name="border">#CAD6E2</color>
+</resources>

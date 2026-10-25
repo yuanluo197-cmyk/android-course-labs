@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">罗元2024110827</string>
+    <string name="main_heading">实验三 · 多 Activity</string>
+    <string name="main_intro">依次体验正向传参、返回结果、相机拍照与横竖屏连续计时。</string>
+    <string name="open_forward">1  正向传参</string>
+    <string name="open_return">2  返回结果</string>
+    <string name="open_camera">3  隐式调用相机</string>
+    <string name="open_stopwatch">4  秒表</string>
+    <string name="forward_sample">罗元2024110827 从主页面发送的参数</string>
+    <string name="forward_heading">接收参数</string>
+    <string name="forward_display_format">收到：%1$s</string>
+    <string name="return_heading">输入并返回内容</string>
+    <string name="return_hint">请输入要返回给主页面的内容</string>
+    <string name="return_confirm">确定并返回</string>
+    <string name="return_empty_error">请先输入内容</string>
+    <string name="return_placeholder">尚未从第二个页面收到内容</string>
+    <string name="return_result_format">返回结果：%1$s</string>
+    <string name="camera_heading">系统相机拍照</string>
+    <string name="camera_instruction">点击按钮调用系统相机，成功后在这里显示照片。</string>
+    <string name="camera_take_photo">拍照</string>
+    <string name="camera_no_app">未找到可用的相机应用</string>
+    <string name="camera_no_photo">未获得照片，请重试</string>
+    <string name="camera_photo_ready">照片已显示；旋转屏幕后仍会保留</string>
+    <string name="camera_photo_description">拍摄的照片</string>
+    <string name="stopwatch_heading">秒表</string>
+    <string name="stopwatch_instruction">开始计时后，可旋转手机验证计时连续。</string>
+    <string name="stopwatch_start">开始</string>
+    <string name="stopwatch_pause">暂停</string>
+    <string name="stopwatch_reset">清零</string>
+    <string name="stopwatch_time_format">%1$02d:%2$02d.%3$01d</string>
+    <string name="stopwatch_initial">00:00.0</string>
+    <string name="back">返回</string>
+    <string name="intent_key_forward">com.example.lab03.FORWARD_MESSAGE</string>
+    <string name="intent_key_return">com.example.lab03.RETURN_MESSAGE</string>
+    <string name="state_key_return">state_return_value</string>
+    <string name="state_key_elapsed">state_elapsed_before_run</string>
+    <string name="state_key_started">state_start_timestamp</string>
+    <string name="state_key_running">state_running</string>
+    <string name="camera_thumbnail_key">data</string>
+    <string name="camera_photo_filename">lab03_photo.jpg</string>
+</resources>
