@@ -1,0 +1,8 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/root"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" style="@style/Heading"/>
+<TextView android:layout_width="80dp" android:layout_height="80dp" android:layout_gravity="center" android:gravity="center" android:text="@string/avatar" android:textSize="40sp" android:textColor="#176B87"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/profile_title" style="@style/Heading"/>
+<TextView android:id="@+id/profile" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:lineSpacingExtra="12dp" android:padding="12dp"/>
+<Button android:id="@+id/edit" style="@style/Action" android:text="@string/edit"/>
+<Button android:id="@+id/play" style="@style/Action" android:text="@string/play"/>
+</LinearLayout></ScrollView>

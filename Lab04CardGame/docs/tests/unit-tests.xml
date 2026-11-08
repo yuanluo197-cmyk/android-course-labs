@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.lab04.CardGameTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-08T14:15:51.261Z" hostname="LAPTOP-T54VRSMD" time="0.025">
+  <properties/>
+  <testcase name="saveRoundTrip" classname="com.example.lab04.CardGameTest" time="0.018"/>
+  <testcase name="suitMatch" classname="com.example.lab04.CardGameTest" time="0.001"/>
+  <testcase name="suitScore" classname="com.example.lab04.CardGameTest" time="0.0"/>
+  <testcase name="mismatch" classname="com.example.lab04.CardGameTest" time="0.0"/>
+  <testcase name="rankMatch" classname="com.example.lab04.CardGameTest" time="0.0"/>
+  <testcase name="rankScore" classname="com.example.lab04.CardGameTest" time="0.001"/>
+  <testcase name="freshGame" classname="com.example.lab04.CardGameTest" time="0.0"/>
+  <testcase name="deselect" classname="com.example.lab04.CardGameTest" time="0.001"/>
+  <testcase name="fullDeck" classname="com.example.lab04.CardGameTest" time="0.0"/>
+  <testcase name="noMatch" classname="com.example.lab04.CardGameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

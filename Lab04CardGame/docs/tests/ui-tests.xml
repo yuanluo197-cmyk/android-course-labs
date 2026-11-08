@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="4" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-08T14:18:39" hostname="localhost">
+  <testsuite name="com.example.lab04.GameUiTest" tests="4" failures="0" errors="0" skipped="0" time="17.844" timestamp="2026-11-08T14:18:39" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="flipAndRestart" classname="com.example.lab04.GameUiTest" time="5.506" />
+    <testcase name="saveProfile" classname="com.example.lab04.GameUiTest" time="5.208" />
+    <testcase name="recreateKeepsGame" classname="com.example.lab04.GameUiTest" time="3.183" />
+    <testcase name="cancelProfile" classname="com.example.lab04.GameUiTest" time="3.947" />
+  </testsuite>
+</testsuites>
