@@ -56,7 +56,6 @@
 
 - 原模板实验报告在 docs 目录，原始模板没有被覆盖。
 - docs/screenshots 的四张图片来自实际模拟器测试：主页、资料编辑、初始牌局、首次翻牌。
-- docs/generated-preview.png 是 AI 生成的预期界面例图，已在报告中标注；它不作为测试通过的证据，细节以实际运行截图和源代码为准。
 - 报告中的核心代码图片摘自本项目实际 Kotlin 源码。
 
 课程仓库：https://github.com/yuanluo197-cmyk/android-course-labs/tree/main/Lab04CardGame
