@@ -1,0 +1,2 @@
+82e1fb7 2026-11-09 09:16:10 +0800 Complete midterm student manager and verify add cancel and validation
+61df5f8 2026-11-09 09:03:40 +0800 Create midterm student manager Android project
