@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="5" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-09T01:14:47" hostname="localhost">
+  <testsuite name="com.luoyuan.studentmanager.StudentUiTest" tests="5" failures="0" errors="0" skipped="0" time="14.057" timestamp="2026-11-09T01:14:47" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="cancelDoesNotAddStudent" classname="com.luoyuan.studentmanager.StudentUiTest" time="3.215" />
+    <testcase name="titleAndTextColorMeetStudentNumberRule" classname="com.luoyuan.studentmanager.StudentUiTest" time="0.813" />
+    <testcase name="recreatedListKeepsAddedStudent" classname="com.luoyuan.studentmanager.StudentUiTest" time="3.298" />
+    <testcase name="addReturnsStudentAndRefreshesList" classname="com.luoyuan.studentmanager.StudentUiTest" time="3.335" />
+    <testcase name="emptyAndDuplicateInputAreRejected" classname="com.luoyuan.studentmanager.StudentUiTest" time="3.396" />
+  </testsuite>
+</testsuites>

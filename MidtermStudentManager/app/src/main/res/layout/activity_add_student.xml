@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="@color/page">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/add_title" android:textSize="26sp" android:textStyle="bold" android:textColor="@color/brown" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="@string/add_hint" android:textSize="14sp" android:textColor="@color/brown" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp"
+            android:text="@string/student_id" android:labelFor="@id/studentId" android:textColor="@color/brown" />
+        <EditText android:id="@+id/studentId" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="@string/student_id_hint" android:inputType="number" android:maxLines="1" android:autofillHints="" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:text="@string/student_name" android:labelFor="@id/studentName" android:textColor="@color/brown" />
+        <EditText android:id="@+id/studentName" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="@string/student_name_hint" android:inputType="textPersonName" android:maxLines="1" android:autofillHints="name" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:text="@string/gender" android:textColor="@color/brown" />
+        <RadioGroup android:id="@+id/gender" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/male" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/male" android:textColor="@color/brown" android:buttonTint="@color/brown" />
+            <RadioButton android:id="@+id/female" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginStart="24dp" android:text="@string/female" android:textColor="@color/brown" android:buttonTint="@color/brown" />
+        </RadioGroup>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:text="@string/class_name" android:labelFor="@id/className" android:textColor="@color/brown" />
+        <EditText android:id="@+id/className" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="@string/class_hint" android:inputType="text" android:maxLines="1" android:autofillHints="" />
+        <TextView android:id="@+id/error" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" android:minHeight="24dp" android:accessibilityLiveRegion="polite" android:textColor="@color/brown" />
+        <Button android:id="@+id/confirm" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="@string/confirm" />
+        <Button android:id="@+id/cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel" />
+    </LinearLayout>
+</ScrollView>

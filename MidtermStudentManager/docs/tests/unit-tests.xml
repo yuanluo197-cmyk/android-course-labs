@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.luoyuan.studentmanager.StudentTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-09T01:10:39.741Z" hostname="LAPTOP-T54VRSMD" time="0.026">
+  <properties/>
+  <testcase name="rejectsNonNumericId" classname="com.luoyuan.studentmanager.StudentTest" time="0.014"/>
+  <testcase name="rejectsBlankName" classname="com.luoyuan.studentmanager.StudentTest" time="0.001"/>
+  <testcase name="requiresGender" classname="com.luoyuan.studentmanager.StudentTest" time="0.0"/>
+  <testcase name="rejectsEmptyId" classname="com.luoyuan.studentmanager.StudentTest" time="0.0"/>
+  <testcase name="serializesStudent" classname="com.luoyuan.studentmanager.StudentTest" time="0.004"/>
+  <testcase name="acceptsCompleteStudent" classname="com.luoyuan.studentmanager.StudentTest" time="0.0"/>
+  <testcase name="requiresClass" classname="com.luoyuan.studentmanager.StudentTest" time="0.0"/>
+  <testcase name="rejectsDuplicateId" classname="com.luoyuan.studentmanager.StudentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

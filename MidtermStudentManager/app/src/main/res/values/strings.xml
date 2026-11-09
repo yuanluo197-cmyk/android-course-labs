@@ -1,1 +1,33 @@
-<resources><string name="app_name">罗元2024110827</string></resources>
+<resources>
+    <string name="app_name">罗元2024110827</string>
+    <string name="page_title">学生信息管理</string>
+    <string name="subtitle">2024级2班 · 上机测试</string>
+    <string name="list_title">学生列表</string>
+    <string name="count_format">共 %1$d 位学生</string>
+    <string name="add_student">添加学生</string>
+    <string name="add_title">新增学生</string>
+    <string name="add_hint">填写学生信息，确定后返回列表</string>
+    <string name="student_id">学号</string>
+    <string name="student_name">姓名</string>
+    <string name="gender">性别</string>
+    <string name="class_name">班级</string>
+    <string name="student_id_hint">请输入学号</string>
+    <string name="student_name_hint">请输入姓名</string>
+    <string name="class_hint">例如：2024级2班</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="unknown_gender">未填写</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="row_title">%1$s</string>
+    <string name="row_detail">学号：%1$s\n性别：%2$s\n班级：%3$s</string>
+    <string name="default_name">罗元</string>
+    <string name="default_id">2024110827</string>
+    <string name="default_class">2024级2班</string>
+    <string name="empty_id">请填写学号</string>
+    <string name="invalid_id">学号只能包含数字</string>
+    <string name="empty_name">请填写姓名</string>
+    <string name="missing_gender">请选择性别</string>
+    <string name="empty_class">请填写班级</string>
+    <string name="duplicate_id">该学号已存在，请检查后重新填写</string>
+</resources>

@@ -17,7 +17,6 @@ android {
     }
 }
 dependencies {
-    implementation("androidx.activity:activity-ktx:1.8.2")
     testImplementation(libs.junit)
     androidTestImplementation("androidx.test:runner:1.6.2")
     androidTestImplementation("androidx.test:rules:1.6.1")
